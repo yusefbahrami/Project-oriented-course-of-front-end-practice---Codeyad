@@ -1,56 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="./assets/css/util.css">
-        <link rel="stylesheet" href="../assets/css/style.css">
-        <title>Document</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/util.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Document</title>
+</head>
 
-    <body>
-        <nav class="grey darken-3 z-depth-0">
-            <div class="nav-wrapper">
-                <a href="#!" class="brand-logo blue-text darken-3">Home</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text darken-3"><i
-                        class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">Javascript</a></li>
-                    <li><a href="mobile.html">Mobile</a></li>
-                </ul>
-            </div>
-        </nav>
+<body>
+    <!-- Navbar section ---------- Start -->
+    <nav class="grey darken-3 z-depth-0 top_navbar">
+        <div class="nav-wrapper">
+            <a href="#!" class="blue-text darken-3 hide-on-med-and-up">Home</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text darken-3"><i
+                    class="material-icons">menu</i></a>
+            <ul class="hide-on-med-and-down">
+                <li><a href="/">Home</a></li>
+                <li><a href="/user.html">User Manager</a></li>
+                <li><a href="https://codeyad.com/">Codeyad</a></li>
+                <li><a href="#">Mobile</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <ul class="sidenav" id="mobile-demo">
-            <li>
-                <div class="user-view">
-                    <div class="background">
-                        <img class="w-full" src="./assets/images/office.jpg">
-                    </div>
-                    <a href="#user"><img class="circle w-full" src="./assets/images/profile.jpg"></a>
-                    <a href="#name"><span class="white-text name">John Doe</span></a>
-                    <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img class="w-full" src="./assets/images/office.jpg">
                 </div>
-            </li>
-            <li><a href="#!"><i class="material-icons">insert_link</i>First Link With Icon</a></li>
-            <li><a href="#!"><i class="material-icons">insert_link</i>Second Link</a></li>
-            <li>
-                <div class="divider"></div>
-            </li>
-            <li><a class="subheader">Subheader</a></li>
-            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-        </ul>
+                <a href="#user"><img class="circle w-full" src="./assets/images/profile.jpg"></a>
+                <a href="#name"><span class="white-text name">John Doe</span></a>
+                <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="#!"><i class="material-icons">insert_link</i>First Link With Icon</a></li>
+        <li><a href="#!"><i class="material-icons">insert_link</i>Second Link</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="/"><i class="material-icons">account_balance</i>Home</a></li>
+
+    </ul>
+    <!-- Navbar section ---------- End -->
+
+    <!-- Home section ---------- Start -->
+    <section class="flex-c-m flex-col sizefull p-r-20 p-l-20 m-t-30">
+        <img src="assets/images/logo.png" class="w-full max-w-200 filter_shadow m-b-10" alt="logo">
+        <a href=""
+            class="waves-effect waves-light btn blue darken-2 w-full max-w-250 m-t-10 m-b-10 rounded_pill">Programming
+            Tutorial</a>
+        <a href="./user.html"
+            class="waves-effect waves-light btn blue darken-2 w-full max-w-250 m-t-10 m-b-10 rounded_pill">User
+            Manager</a>
+    </section>
+    <!-- Home section ---------- End -->
 
 
-
-        <script src="./assets/materialize/materialize.min.js"></script>
-        <script src="../assets/js/app.js"></script>
-    </body>
+    <script src="./assets/materialize/materialize.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+</body>
 
 </html>

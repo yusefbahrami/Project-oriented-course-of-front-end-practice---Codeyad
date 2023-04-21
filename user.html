@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/util.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Navbar section ---------- Start -->
+    <nav class="grey darken-3 z-depth-0 top_navbar">
+        <div class="nav-wrapper">
+            <a href="#!" class="blue-text darken-3 hide-on-med-and-up">User Manager</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text darken-3"><i
+                    class="material-icons">menu</i></a>
+            <ul class="hide-on-med-and-down">
+                <li><a href="/">Home</a></li>
+                <li><a href="/user.html">User Manager</a></li>
+                <li><a href="https://codeyad.com/">Codeyad</a></li>
+                <li><a href="#">Mobile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img class="w-full" src="./assets/images/office.jpg" />
+                </div>
+                <a href="#user"><img class="circle w-full" src="./assets/images/profile.jpg" /></a>
+                <a href="#name"><span class="white-text name">John Doe</span></a>
+                <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+            </div>
+        </li>
+        <li>
+            <a href="#!"><i class="material-icons">insert_link</i>First Link With Icon</a>
+        </li>
+        <li>
+            <a href="#!"><i class="material-icons">insert_link</i>Second Link</a>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="/"><i class="material-icons">account_balance</i>Home</a></li>
+    </ul>
+    <!-- Navbar section ---------- End -->
+
+    <!-- Content section ---------- Start -->
+    <section id="top_actions_section" class="row">
+        <!-- add button -->
+        <div class="p-l-10 p-r-10 p-t-10 col s12 m4 l2">
+            <button class="waves-effect waves-light btn blue darken-2 p-l-30 p-r-30 w-full rounded_pill flex-c">
+                <i class="material-icons m-r-5">add</i>
+                Add User
+            </button>
+        </div>
+        <!-- Search section -->
+        <div class="input-field col s12 m8 l8">
+            <input id="search" type="text" class="validate" />
+            <label for="search">
+                <i class="material-icons pos-relative top-5">search</i>
+                Search
+            </label>
+        </div>
+        <div class="col l2 hide-on-med-and-down"></div>
+    </section>
+
+    <section class="user_list_section">
+        <ul class="collapsible">
+            <li class="user_list_item">
+                <div class="collapsible-header">
+                    <i
+                        class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-3">arrow_drop_down_circle</i>
+                    ALAEDDIN
+                </div>
+                <div class="collapsible-body">
+                    <div class="p-all-5">
+                        <span class="f-bold">Username: </span>
+                        <span class="">ALAEDDIN</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Email: </span>
+                        <span class="">ALAEDDIN@gmail.com</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Addres: </span>
+                        <span class="">Gavbandi</span>
+                    </div>
+                    <div class="p-all-5 flex-l-m">
+                        <span class="f-bold">Actions: </span>
+                        <span class="material-icons red-text m-l-5 m-r-5">delete_forever</span>
+                        <span class="material-icons orange-text m-l-5 m-r-5">edit</span>
+                    </div>
+                </div>
+            </li>
+            <li class="user_list_item">
+                <div class="collapsible-header">
+                    <i
+                        class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-3">arrow_drop_down_circle</i>
+                    ALAEDDIN
+                </div>
+                <div class="collapsible-body">
+                    <div class="p-all-5">
+                        <span class="f-bold">Username: </span>
+                        <span class="">ALAEDDIN</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Email: </span>
+                        <span class="">ALAEDDIN@gmail.com</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Addres: </span>
+                        <span class="">Gavbandi</span>
+                    </div>
+                    <div class="p-all-5 flex-l-m">
+                        <span class="f-bold">Actions: </span>
+                        <span class="material-icons red-text m-l-5 m-r-5">delete_forever</span>
+                        <span class="material-icons orange-text m-l-5 m-r-5">edit</span>
+                    </div>
+                </div>
+            </li>
+            <li class="user_list_item">
+                <div class="collapsible-header">
+                    <i
+                        class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-3">arrow_drop_down_circle</i>
+                    ALAEDDIN
+                </div>
+                <div class="collapsible-body">
+                    <div class="p-all-5">
+                        <span class="f-bold">Username: </span>
+                        <span class="">ALAEDDIN</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Email: </span>
+                        <span class="">ALAEDDIN@gmail.com</span>
+                    </div>
+                    <div class="p-all-5">
+                        <span class="f-bold">Addres: </span>
+                        <span class="">Gavbandi</span>
+                    </div>
+                    <div class="p-all-5 flex-l-m">
+                        <span class="f-bold">Actions: </span>
+                        <span class="material-icons red-text m-l-5 m-r-5">delete_forever</span>
+                        <span class="material-icons orange-text m-l-5 m-r-5">edit</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!-- Content section ---------- End -->
+
+    <script src="./assets/materialize/materialize.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/users.js"></script>
+</body>
+
+</html>

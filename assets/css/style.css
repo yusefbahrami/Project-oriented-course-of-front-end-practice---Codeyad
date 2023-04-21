@@ -1,0 +1,19 @@
+@media(min-width:600px) {
+    .top_navbar {
+        box-shadow: 0 0 50px #808080 !important;
+    }
+
+    #top_actions_section {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.user_list_item.active .user_list_arrow_icon {
+    transform: rotate(-180deg);
+}
+
+.user_list_item.active,
+.user_list_item.active .collapsible-header {
+    background-color: rgba(128, 128, 128, 0.322);
+}
