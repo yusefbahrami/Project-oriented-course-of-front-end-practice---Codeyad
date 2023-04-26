@@ -26,3 +26,31 @@ table.highlight>tbody>tr:hover {
 .container {
     width: 100%;
 }
+
+.add_user_modal_back {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.add_user_modal {
+    position: fixed;
+    z-index: 1000;
+    /* width: 100%; */
+    height: 70vh;
+    right: 0;
+    left: 0;
+    bottom: -70vh;
+    transition: bottom 0.3s;
+    background-color: white
+}
+
+.add_user_modal.show {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    bottom: 0;
+}
